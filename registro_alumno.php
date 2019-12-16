@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
     <body>
         <form action="index.html" method="get">
             <table border="0" align="center">
@@ -36,10 +39,10 @@
                 </tr>
                 <tr>
                     <td>
-                        <button type="button">Aceptar</button>
+                        <input type="submit" name="aceptar2" value="Aceptar" />
                     </td>
                     <td>
-                        <button type="submit">Atrás</button>
+                        <input type="submit" name="atras3" value="Atras" />
                     </td>
                 </tr>
             </table>

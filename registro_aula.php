@@ -1,9 +1,10 @@
 <html>
     <head>
+        <meta charset="UTF-8" />
         <title>Formulario de registro de aulas</title>
     </head>
     <body>
-        <form action="index.html">
+        <form action="index.html" method="get">
             <p>
                 Nombre del aula:<br>
                 <input type="text" name="nombreaula">
@@ -23,8 +24,8 @@
                 </textarea> 
             </p>
             <p>
-                <input type="button" value="Aceptar">
-                <input type="submit" value="Cancelar">
+                <input type="submit" name="aceptar3" value="Aceptar">
+                <input type="submit" name="cancelar2" value="Cancelar">
             </p>
         </form>
     </body>
